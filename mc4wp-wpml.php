@@ -34,6 +34,11 @@ function _mc4wp_wpml_load() {
     return;
   }
 
+  // only load when WPML is activated
+  if( ! defined( 'ICL_SITEPRESS_VERSION' ) ) {
+    return;
+  }
+
   // only load when PHP >= 5.3
   if( version_compare( PHP_VERSION, '5.3', '<' ) ) {
     return;
