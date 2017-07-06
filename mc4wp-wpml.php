@@ -27,7 +27,7 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-function _mc4wp_wpml_load() {
+add_action( 'plugins_loaded', function() {
 
   // only load when MailChimp for WordPress is activated
   if( ! defined( 'MC4WP_VERSION' ) ) {
@@ -39,11 +39,6 @@ function _mc4wp_wpml_load() {
     return;
   }
 
-  // only load when PHP >= 5.3
-  if( version_compare( PHP_VERSION, '5.3', '<' ) ) {
-    return;
-  }
-
   // load functions & hooks
   require __DIR__ . '/includes/functions.php';
   require __DIR__ . '/includes/hooks.php';
@@ -52,6 +47,4 @@ function _mc4wp_wpml_load() {
     require __DIR__ . '/includes/admin-functions.php';
     require __DIR__ . '/includes/admin-hooks.php';
   }
-}
-
-add_action( 'plugins_loaded', '_mc4wp_wpml_load', 20 );
+}, 20 );
