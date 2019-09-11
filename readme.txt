@@ -4,7 +4,7 @@ Donate link: https://mc4wp.com/#utm_source=wp-plugin-repo&utm_medium=mailchimp-f
 Tags: mc4wp, wpml, mailchimp
 Requires at least: 3.7
 Tested up to: 5.2
-Stable tag: 1.0
+Stable tag: 1.0.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 5.3
@@ -41,6 +41,12 @@ More detailed documentation can be found in the [Mailchimp for WordPress knowled
 1. The settings page.
 
 == Changelog ==
+
+#### 1.0.1 - Sep 11, 2019
+
+- Change plugin name.
+- Change MailChimp to Mailchimp in all texts.
+
 
 #### 1.0 - July 5, 2017
 
