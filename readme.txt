@@ -1,4 +1,4 @@
-=== MailChimp for WordPress - WPML Integration ===
+=== MC4WP: WPML Integration ===
 Contributors: Ibericode, DvanKooten, hchouhan, lapzor
 Donate link: https://mc4wp.com/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=donate-link
 Tags: mc4wp, wpml, mailchimp
