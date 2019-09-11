@@ -19,7 +19,7 @@
                 <tr>
                   <th style="width: auto; text-align: left;">Language</th>
                   <th style="width: 20px;"></th>
-                  <th style="width: auto; text-align: left;">MailChimp list</th>
+                  <th style="width: auto; text-align: left;">Mailchimp list</th>
                 </tr>
               </thead>
               <tbody>
@@ -53,7 +53,7 @@
                 Set the subscriber's language based on the site language
               </label>
               <p class="help">
-                By default, MailChimp will guess a subscriber's language based on the browser language &amp; IP address that we include in every sign-up request. Use this option to explicitly set the subscriber language to the WPML site language.
+                By default, Mailchimp will guess a subscriber's language based on the browser language &amp; IP address that we include in every sign-up request. Use this option to explicitly set the subscriber language to the WPML site language.
               </p>
             </td>
           </tr>
