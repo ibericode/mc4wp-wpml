@@ -13,12 +13,12 @@ WPML integration for the Mailchimp for WordPress plugin.
 
 == Description ==
 
-WPML - Mailchimp is an add-on for [Mailchimp for WordPress](https://wordpress.org/plugins/mailchimp-for-wp/), adding the following features:
+This is an add-on plugin for [MC4WP: Mailchimp for WordPress](https://wordpress.org/plugins/mailchimp-for-wp/), adding the following features:
 
 - Subscribe to a different Mailchimp list for each of your site's languages.
 - Set the subscriber's language based on the current site language.
 
-Please note that this plugin requires PHP 5.3 or higher.
+This plugin requires PHP 5.3 or higher.
 
 == Installation ==
 
