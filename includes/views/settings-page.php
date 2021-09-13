@@ -41,7 +41,7 @@
                     <?php } ?>
                   </tbody>
                 </table>
-                <p class="help">Configure which site languages should subscribe to which lists. Please note that this will override the list setting for the specific form or integration settings.</p>
+                <p class="help">Configure which site languages should subscribe to which lists. <b>Please note that this will override the list setting for the specific form or integration settings.</b></p>
             </td>
           </tr><!-- / language map tr -->
 

@@ -3,8 +3,8 @@ Contributors: Ibericode, DvanKooten, hchouhan, lapzor
 Donate link: https://mc4wp.com/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=donate-link
 Tags: mc4wp, wpml, mailchimp
 Requires at least: 3.7
-Tested up to: 5.2
-Stable tag: 1.0.1
+Tested up to: 5.8.1
+Stable tag: 1.0.2
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 Requires PHP: 5.3
@@ -41,6 +41,10 @@ More detailed documentation can be found in the [Mailchimp for WordPress knowled
 1. The settings page.
 
 == Changelog ==
+#### 1.0.2 - Sep 13, 2021
+
+- Updated Wordpress version (tested up to 5.8.1)
+- Made the notice that setting a list per language will overwrite the form and integration settings more clear.
 
 #### 1.0.1 - Sep 11, 2019
 
