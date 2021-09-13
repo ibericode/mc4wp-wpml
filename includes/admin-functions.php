@@ -1,6 +1,5 @@
 <?php
 
-
 function mc4wp_wpml_settings_page() {
   global $sitepress;
   $opts = mc4wp_wpml_get_options();
