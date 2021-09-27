@@ -26,14 +26,14 @@
                 <?php foreach( $languages as $language_code => $language ) { ?>
                   <tr>
                     <td style="padding-left: 0; padding-right: 0;">
-                      <?php echo $language['display_name']; ?>
+                      <?php echo esc_html( $language['display_name'] ); ?>
                     </td>
                     <td>&rarr;</td>
                     <td style="padding-left: 0;">
                       <select name="mc4wp_wpml[language_map][<?php echo esc_attr($language_code ); ?>]">
                         <option value="">-- use form or integration setting</option>
                         <?php foreach( $mailchimp_lists as $list ) { ?>
-                          <option value="<?php echo $list->id; ?>" <?php selected( isset( $opts['language_map'][$language_code] ) && $opts['language_map'][$language_code] == $list->id, true ); ?>><?php echo $list->name; ?></option>
+                          <option value="<?php echo esc_attr( $list->id ); ?>" <?php selected( isset( $opts['language_map'][$language_code] ) && $opts['language_map'][$language_code] == $list->id, true ); ?>><?php echo esc_html( $list->name ); ?></option>
                           <?php } ?>
                         </select>
                       </td>
