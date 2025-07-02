@@ -29,9 +29,6 @@ fi
 # Check if there is an existing file for this release already
 rm -f "$PACKAGE_FILE"
 
-# Build (optimized) client-side assets
-npm run build
-
 # Update version numbers in code
 sed -i "s/^Version: .*$/Version: $VERSION/g" "$PLUGIN_FILE"
 sed -i "s/define('\(.*_VERSION\)', '.*');/define('\1', '$VERSION');/g" "$PLUGIN_FILE"
