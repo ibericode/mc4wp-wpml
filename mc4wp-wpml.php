@@ -27,24 +27,24 @@ You should have received a copy of the GNU General Public License
 along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-add_action( 'plugins_loaded', function() {
+add_action('plugins_loaded', function () {
 
   // only load when Mailchimp for WordPress is activated
-  if( ! defined( 'MC4WP_VERSION' ) ) {
-    return;
-  }
+    if (! defined('MC4WP_VERSION')) {
+        return;
+    }
 
   // only load when WPML is activated
-  if( ! defined( 'ICL_SITEPRESS_VERSION' ) ) {
-    return;
-  }
+    if (! defined('ICL_SITEPRESS_VERSION')) {
+        return;
+    }
 
   // load functions & hooks
-  require __DIR__ . '/includes/functions.php';
-  require __DIR__ . '/includes/hooks.php';
+    require __DIR__ . '/includes/functions.php';
+    require __DIR__ . '/includes/hooks.php';
 
-  if( is_admin() && ( ! defined( 'DOING_AJAX' ) || ! DOING_AJAX ) ) {
-    require __DIR__ . '/includes/admin-functions.php';
-    require __DIR__ . '/includes/admin-hooks.php';
-  }
-}, 20 );
+    if (is_admin() && ( ! defined('DOING_AJAX') || ! DOING_AJAX )) {
+        require __DIR__ . '/includes/admin-functions.php';
+        require __DIR__ . '/includes/admin-hooks.php';
+    }
+}, 20, 0);
