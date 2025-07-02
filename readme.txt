@@ -3,10 +3,10 @@ Contributors: Ibericode, DvanKooten, hchouhan, lapzor
 Donate link: https://mc4wp.com/#utm_source=wp-plugin-repo&utm_medium=mailchimp-for-wp&utm_campaign=donate-link
 Tags: mc4wp, wpml, mailchimp
 Requires at least: 3.7
-Tested up to: 6.1
+Tested up to: 6.8
 Stable tag: 1.0.3
 License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+License URI: http://www.gnu.org/licenses/gpl-2.0.htmlq
 Requires PHP: 5.3
 
 WPML integration for the Mailchimp for WordPress plugin.
@@ -15,7 +15,7 @@ WPML integration for the Mailchimp for WordPress plugin.
 
 This is an add-on plugin for [MC4WP: Mailchimp for WordPress](https://wordpress.org/plugins/mailchimp-for-wp/), adding the following features:
 
-- Subscribe to a different Mailchimp list for each of your site's languages.
+- Subscribe to a different Mailchimp audience for each of your site's languages.
 - Set the subscriber's language based on the current site language.
 
 This plugin requires PHP 5.3 or higher.
@@ -41,6 +41,12 @@ More detailed documentation can be found in the [Mailchimp for WordPress knowled
 1. The settings page.
 
 == Changelog ==
+
+#### 1.0.4 - Jul 2, 2025
+
+- Compatibility with WordPress 6.8
+- Rename lists to audiences.
+
 
 #### 1.0.3 - Sep 27, 2021
 
