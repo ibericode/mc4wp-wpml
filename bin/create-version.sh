@@ -40,7 +40,7 @@ cd ..
 # Create archive (excl. development files)
 zip -r "$PACKAGE_FILE" "$PLUGIN_SLUG" \
 	-x "$PLUGIN_SLUG/.*" \
-	-x "$PLGIN_SLUG/bin/*" \
+	-x "$PLUGIN_SLUG/bin/*" \
 	-x "$PLUGIN_SLUG/vendor/*" \
 	-x "$PLUGIN_SLUG/node_modules/*" \
 	-x "$PLUGIN_SLUG/tests/*" \
