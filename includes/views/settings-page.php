@@ -8,7 +8,7 @@
   <?php settings_errors(); ?>
 
   <form method="POST" action="options.php">
-    <?php settings_fields( 'mc4wp_wpml' ); ?>
+    <?php settings_fields('mc4wp_wpml'); ?>
       <table class="form-table">
 
         <tr valign="top">
@@ -23,25 +23,25 @@
                 </tr>
               </thead>
               <tbody>
-                <?php foreach( $languages as $language_code => $language ) { ?>
+                <?php foreach ($languages as $language_code => $language) { ?>
                   <tr>
                     <td style="padding-left: 0; padding-right: 0;">
-                      <?php echo esc_html( $language['display_name'] ); ?>
+                      <?php echo esc_html($language['display_name']); ?>
                     </td>
                     <td>&rarr;</td>
                     <td style="padding-left: 0;">
-                      <select name="mc4wp_wpml[language_map][<?php echo esc_attr($language_code ); ?>]">
+                      <select name="mc4wp_wpml[language_map][<?php echo esc_attr($language_code); ?>]">
                         <option value="">-- use form or integration setting</option>
-                        <?php foreach( $mailchimp_lists as $list ) { ?>
-                          <option value="<?php echo esc_attr( $list->id ); ?>" <?php selected( isset( $opts['language_map'][$language_code] ) && $opts['language_map'][$language_code] == $list->id, true ); ?>><?php echo esc_html( $list->name ); ?></option>
-                          <?php } ?>
+                        <?php foreach ($mailchimp_lists as $list) { ?>
+                          <option value="<?php echo esc_attr($list->id); ?>" <?php selected(isset($opts['language_map'][$language_code]) && $opts['language_map'][$language_code] == $list->id, true); ?>><?php echo esc_html($list->name); ?></option>
+                        <?php } ?>
                         </select>
                       </td>
                     </tr>
-                    <?php } ?>
+                <?php } ?>
                   </tbody>
                 </table>
-              <p class="help">Configure which site languages should subscribe to which lists. <strong>Please note that this will override the list setting for the specific form or integration settings.</strong></p>
+              <p class="help">Configure which site languages should subscribe to which Mailchimp audience. <strong>Please note that this will override the audience setting for the specific form or integration settings.</strong></p>
             </td>
           </tr><!-- / language map tr -->
 
@@ -49,7 +49,7 @@
             <th scope="row">Subscriber language</th>
             <td>
               <label>
-                <input type="checkbox" name="mc4wp_wpml[set_subscriber_language]" value="1" <?php checked( $opts['set_subscriber_language'], 1 ); ?> />
+                <input type="checkbox" name="mc4wp_wpml[set_subscriber_language]" value="1" <?php checked($opts['set_subscriber_language'], 1); ?> />
                 Set the subscriber's language based on the site language
               </label>
               <p class="help">
