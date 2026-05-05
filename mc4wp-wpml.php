@@ -5,13 +5,15 @@ Plugin URI: https://www.mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for
 Description: Improved WPML integration for Mailchimp for WordPress.
 Version: 1.0.4
 Author: ibericode
-Author URI: https://ibericode.com/
+Author URI: https://www.ibericode.com/
 Text Domain: mc4wp-wpml
 Domain Path: /languages
+Requires PHP: 7.4
+Requires Plugins: mailchimp-for-wp
 License: GPL v2
 
 Mailchimp for WordPress - WPML Integration
-Copyright (C) 2017-2023, Danny van Kooten, hi@dannyvankooten.com
+Copyright (C) 2017-2026, Danny van Kooten, hi@dannyvankooten.com
 
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
