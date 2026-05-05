@@ -42,12 +42,17 @@ More detailed documentation can be found in the [Mailchimp for WordPress knowled
 
 == Changelog ==
 
-#### 1.0.5 - May 5, 2026
+#### 1.0.6 - May 5, 2026
 
 - Bump required WordPress version to 4.5
 - Bump required PHP version to 7.4 
 - Handle dependency on [Mailchimp for WordPress](https://wordpress.org/plugins/mailchimp-for-wp/) through the "Requires Plugins" plugin file header.
 - Update tested WordPress version to 7.0.
+
+#### 1.0.5 - Aug 18, 2025
+
+- Fix license URL
+- Remove no-op sanitization function
 
 
 #### 1.0.4 - Jul 2, 2025
