@@ -4,7 +4,7 @@
 Plugin Name: MC4WP: WPML compatibility
 Plugin URI: https://www.mc4wp.com/#utm_source=wp-plugin&utm_medium=mailchimp-for-wp&utm_campaign=plugins-page
 Description: Improved WPML integration for Mailchimp for WordPress.
-Version: 1.0.5
+Version: 1.0.6
 Author: ibericode
 Author URI: https://www.ibericode.com/
 Text Domain: mc4wp-wpml
